@@ -1,1 +1,1 @@
-#This is a website for the Artist Shane Fuller
+#This is a website for the artist Shane Fuller

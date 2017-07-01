@@ -1,6 +1,7 @@
 body {
-  font-family: monospace;
-  background-image: url("#");
+  font-family: Unica One;
+  background-image: url(images/bg.png);
+  color: white;
 }
 
 h1 {
@@ -9,4 +10,24 @@ h1 {
 
 a {
   text-decoration: none;
+  font-size: 500%;
+}
+.navi {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+
+}
+
+img {
+  height: 50%;
+}
+
+#logo {
+  height: 300px;
+  width: auto;
+  padding: 10px;
 }
