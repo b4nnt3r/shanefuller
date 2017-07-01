@@ -1,0 +1,12 @@
+body {
+  font-family: monospace;
+  background-image: url("#");
+}
+
+h1 {
+  font-size: 300%;
+}
+
+a {
+  text-decoration: none;
+}
