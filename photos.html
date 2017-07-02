@@ -9,13 +9,30 @@
 </head>
 
 <body>
-  <h1>Shane Fuller</h1>
-  <div class="navi">
-    <nav>
-      <a href="photos.html">Photos</a>
-      <a href="index.html">Home</a>
-    </nav>
+  <div class="wrapper">
+    <h1>Shane Fuller</h1>
+    <div class="navi">
+      <nav>
+        <div class="svg-wrapper">
+          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="320" />
+            <div class="text"><a href="index.html">
+              Home</a></div>
+          </svg>
+        </div>
+        <div class="svg-wrapper">
+          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+      <rect class="shape" height="60" width="320" />
+      <div class="text"><a href="photos.html">
+        Photos</a></div>
+    </svg>
+        </div>
+    </div>
   </div>
+  </nav>
+
+
+
   <img id="logo" src="images/strongtail.png">
   <div class="container">
     <img src="images/halo.png">
@@ -23,6 +40,29 @@
     <img src="images/mat.png">
 
   </div>
+  <form class="form" action="index.html" method="post">
+    <label for="thoughts">Tell me your thoughts</label>
+    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+    <select name="car" id="car">
+      <option value="peace">Peace</option>
+      <option value="faith">Faith</option>
+      <option value="inner-harmony">Inner Harmony</option>
+      <option value="intuition">Intuition</option>
+  </select>
+    <input type="range" min="1" max="10" name="thoughts" id="thoughts" value="text goes here">
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

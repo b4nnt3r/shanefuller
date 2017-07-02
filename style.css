@@ -1,26 +1,38 @@
 body {
   font-family: Unica One;
+  /*font-family: 'Roboto Condensed';*/
+  font-weight: 100;
   background-image: url(images/bg.png);
+  background-color: black;
+  background-repeat: no-repeat;
   color: white;
 }
 
 h1 {
   font-size: 300%;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
   font-size: 500%;
+  color: white;
 }
-.navi {
+
+a.hover {
+  background-image: url("images/hover.png");
+}
+
+.wrapper {
   display: flex;
-  justify-content: center;
+}
+
+.navi {
+
 }
 
 
-.container {
-
-}
+.container {}
 
 img {
   height: 50%;
@@ -30,4 +42,37 @@ img {
   height: 300px;
   width: auto;
   padding: 10px;
+}
+
+.svg-wrapper {
+  position: relatives;
+  top: 50%;
+  /*transform: translateY(25%);*/
+	  margin: 0 auto;
+  width: 320px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #FFFFFF;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Unica One';
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+  text-align: center;
+
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
 }
